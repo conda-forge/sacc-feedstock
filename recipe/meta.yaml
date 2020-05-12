@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/LSSTDESC/sacc/archive/{{ version }}.tar.gz
-  sha256: 8811cfa3ce760e1eec5d900128be28d8e952cf504c2744d2f8230d1638e5b5ec
+  sha256: 0c0dc7d74da7ca6c5e850d77c69f9a010e92abe2e7e9bb96145feaffb666bdb0
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,7 +34,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Save All Correlations and Covariances'
+  summary: Save All Correlations and Covariances
 
 extra:
   recipe-maintainers:
