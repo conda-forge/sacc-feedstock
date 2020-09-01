@@ -5,7 +5,7 @@ Home: https://github.com/LSSTDESC/sacc
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Save All Correlations and Covariances
 
