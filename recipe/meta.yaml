@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LSSTDESC/sacc/archive/{{ version }}.tar.gz
-  sha256: e9779970553a5a9458bbd11b43c7db8c4620d32698c05523b60aa169a06ad3eb
+  sha256: ef0a12ac8215b105743e651f38394e9f590c7a876b6e8758449fc54a5036949b
 
 build:
   noarch: python
