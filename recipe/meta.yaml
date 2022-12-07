@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "0.6" %}
+{% set version = "0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LSSTDESC/sacc/archive/v{{ version }}.tar.gz
-  sha256: 53d89a93d3bbe0b2de9d1b485248884a4baba40fffeab76c49fc16f476290352
+  sha256: cbc71ff175ccf980f36695ad85db4f3b806c89199247daf91c429421104fa495
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - python >=3.7
     - pip
     - setuptools_scm <7
-    - setuptools_scm_git_archive    
+    - setuptools_scm_git_archive
   run:
     - python >=3.7
     - astropy
