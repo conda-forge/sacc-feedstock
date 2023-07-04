@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "0.8.1" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/LSSTDESC/sacc/archive/v{{ version }}.tar.gz
-  sha256: 3f5373ee04d3f59c8464a208a0a5a217f1e5e98f5a286a5825b152515ebd507b
+  sha256: 1db55009c897849ac73d259cceb474293a9fa1803958ceee4dae7c48a42d3567
 
 build:
   noarch: python
@@ -27,7 +27,6 @@ requirements:
     - astropy
     - scipy
     - numpy
-    - numpydoc
 
 test:
   imports:
