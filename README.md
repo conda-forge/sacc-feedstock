@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@beckermr](https://github.com/beckermr/)
+* [@joezuntz](https://github.com/joezuntz/)
 
