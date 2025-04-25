@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "0.16" %}
+{% set version = "1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/LSSTDESC/sacc/archive/v{{ version }}.tar.gz
-  sha256: e776dc90bc446060566da03414aa4a75afcbbeec0809952c9564b63684125bb8
+  sha256: 2c361c12481e20115431286a4e975b5be2407124c69a28548fd44cb40648a0cc
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
   script: {{ PYTHON }} -m pip install . -vv
