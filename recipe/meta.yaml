@@ -1,5 +1,5 @@
 {% set name = "sacc" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1caef7b6fdfee531b68e2a870ccac3115b3d32f8ef7bf1a77092a9e78f645526
+  sha256: c1fc8acd5063b228b8f6d71d6d77800b052b90beafcced3737c077a87387090d
 
 build:
   noarch: python
